@@ -28,7 +28,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: "Prata", serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333333;
   font-size: 15px;
   overflow-x: hidden;
@@ -63,7 +63,7 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -76,6 +76,11 @@ h2 {
 img {
   border: none;
   max-width: 100%;
+}
+
+#separador {
+  padding: 0 1rem !important;
+  color: #3498db;
 }
 
 .mu-readmore-btn {
@@ -343,8 +348,8 @@ img {
 }
 
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
-  color: #fff;
-  font-size: 70px;
+  color: #3498db;
+  font-size: 80px;
   line-height: 90px;
 }
 
@@ -492,7 +497,7 @@ img {
 
 .mu-title .mu-subtitle {
   font-size: 50px;
-  font-family: "Tangerine", cursive;
+  font-family: 'Montserrat', sans-serif;
   line-height: 30px;
 }
 
@@ -514,14 +519,26 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  min-height: 400px;
+}
+
+#mu-counter2 {
+  background-attachment: fixed;
+  background-image: url("assets/img/counter-bg2.jpeg");
+  background-size: cover;
+  display: inline;
+  float: left;
+  width: 100%;
+  min-height: 400px;
 }
 
 .mu-counter-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   display: inline;
   padding: 100px 0;
   float: left;
   width: 100%;
+  min-height: 400px;
 }
 
 .mu-counter-area {
@@ -553,8 +570,8 @@ img {
 }
 
 .mu-counter-nav li .mu-single-counter span {
-  font-family: "Tangerine", cursive;
-  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
 
 .mu-counter-nav li .mu-single-counter h3 {
