@@ -1575,6 +1575,19 @@ RESERVATION SECTION
 
 
 /*==================
+ CAROUSEL 
+====================*/
+.carousel-text  {
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+background-color: #3498db;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/*==================
  RESPONSIVE DESIGN
 ====================*/
 
@@ -1660,7 +1673,10 @@ RESERVATION SECTION
     top: 40%;
   }
 
-
+  .carousel-caption .carousel-text {
+    display: none;
+  }
+  
 }
 
 
