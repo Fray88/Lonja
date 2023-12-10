@@ -1579,8 +1579,10 @@ RESERVATION SECTION
 ====================*/
 .carousel-text  {
 font-family: 'Montserrat', sans-serif;
-font-size: 15px;
+font-weight: bold;
+font-size: 18px;
 background-color: #3498db;
+border-radius: 8px;
 display: flex;
 align-items: center;
 justify-content: center;
